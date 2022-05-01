@@ -1,0 +1,110 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&family=Roboto:wght@300;400;500&display=swap');
+  font-family: 'Montserrat' sans-serif;
+  color: #fff !important;
+}
+.banner-section{
+  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./img/market2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white !important;
+}
+.home-section{
+  color: #333 !important;
+  font-family: 'Montserrat' sans-serif;
+}
+
+body {
+  background-color: white !important;
+  
+}
+#toggle-design{
+  color: white !important;
+}
+.dropdown-item {
+  color: black !important;
+}
+
+.dropdown-item:hover {
+  background-color: #b7b7a4 !important;
+}
+
+.links:hover {
+  transition: .5s !important;
+  color: #b7b7a4 !important;
+}
+
+.box-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.title {
+  font-size: 1rem;
+
+}
+footer{
+  width: 100%;
+}
+footer p,
+      strong{
+  color: #333 !important;
+}
+ 
+.icon{
+  font-size: 30px;
+  padding: 7px;
+  color: #333 !important;
+}
+.icon:hover{
+  color:#b7b7a4 !important;
+  transition: 1s;
+  transform: rotate(360deg);
+  /* transform: scale(1.2); */
+}
+/* .App {
+  text-align: center;
+  
+  
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
